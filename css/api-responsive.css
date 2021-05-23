@@ -1,0 +1,98 @@
+@media screen and (max-width:900px){
+  header {
+    font-size: 3.5rem;
+    /*margin-top: 50px;*/
+    padding-top: 5%;
+  }
+  .fas{
+    font-size: 1.5rem;
+  }
+  .container{
+    padding-top: 30px;
+  }
+  footer{
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width:800px){
+  header {
+    font-size: 3.5rem;
+    /*margin-top: 50px;*/
+    padding-top: 5%;
+  }
+  .fas{
+    font-size: 1.5rem;
+  }
+  .container{
+    padding-top: 30px;
+  }
+  footer{
+   margin-top: 5%;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 650px){
+  header{
+    font-size: 3rem;
+    /*margin-top: 5%;*/
+    /*margin-bottom: 3%;*/
+    padding-top: 10%;
+  }
+  .fas{
+    font-size: 1rem;
+  }
+  *{
+    font-size: 18px;
+  }
+  /*.container{*/
+  /*  padding-top: 5%;*/
+  /*  margin-bottom: -10%;*/
+  /*}*/
+  footer{
+    /*margin-top: 5%;*/
+  }
+}
+@media screen and (max-width: 500px){
+  header{
+    font-size: 2.7rem;
+  }
+  .fas{
+    font-size: 0.9rem;
+  }
+  *{
+    font-size: 16px;
+  }
+  #quote::after,
+  #quote::before{
+    border:3px solid  #236f63;
+  }
+
+  footer{
+
+    margin-top: 2px;
+  }
+}
+@media screen and (max-width: 420px){
+  header{
+    font-size: 2.5rem;
+    padding-top: 5%;
+  }
+  .fas{
+    font-size: 0.7rem;
+  }
+  *{
+    font-size: 14px;
+  }
+  /*.container {*/
+  /*  padding-top: 10%;*/
+  /*}*/
+  #quote::after,
+  #quote::before{
+    border:2px solid  #236f63;
+  }
+  footer{
+    /*margin-top: 5%;*/
+    padding-bottom: 2%;
+  }
+}
+
